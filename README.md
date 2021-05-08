@@ -12,7 +12,8 @@
 
 Docker-compose.yml
 
-`version: '3'
+```
+version: '3'
  services: 
   jenkins: 
    container_name: jenkins
@@ -24,4 +25,5 @@ Docker-compose.yml
    networks:
     - net
  networks:
-  net: `
+  net: 
+```
