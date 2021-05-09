@@ -49,3 +49,9 @@ Example : `docker exec -ti jenkins bash`
 
 1) Goto Manage Jenkins -> Global Tools -> Add maven
 2) Give a name to this maven and start using this in jenkins jobs
+
+Build Jar
+1) `-B -DskipTests clean package`
+
+Deploy Jar
+1) `java -jar /var/jenkins_home/workspace/maven-job/target/springBoot-0.0.1-SNAPSHOT.jar`
