@@ -37,3 +37,10 @@ version: '3'
 `docker exec -ti <jenkins_image_name> bash`
 
 Example : `docker exec -ti jenkins bash`
+
+
+# SCM [Git] with Jenkins
+1) select scm and check git on jenkins
+2) Add Git repo which we need to build 
+3) Select Advance to change the branch 
+4) All the git repos are saved/fetched under workspace/jobs folder 
