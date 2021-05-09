@@ -27,3 +27,13 @@ version: '3'
  networks:
   net: 
 ```
+
+
+# Login to Jenkins Container
+
+1) Jenkins is running in a container.
+2) If we need to login to the jenkins container,we have a command in place 
+
+`docker exec -ti <jenkins_image_name> bash`
+
+Example : `docker exec -ti jenkins bash`
