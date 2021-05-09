@@ -44,3 +44,8 @@ Example : `docker exec -ti jenkins bash`
 2) Add Git repo which we need to build 
 3) Select Advance to change the branch 
 4) All the git repos are saved/fetched under workspace/jobs folder 
+
+#Add Maven in Jenkins
+
+1) Goto Manage Jenkins -> Global Tools -> Add maven
+2) Give a name to this maven and start using this in jenkins jobs
