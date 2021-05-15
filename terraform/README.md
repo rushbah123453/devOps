@@ -1,4 +1,4 @@
-# terraform on MacOS
+# Terraform on MacOS
 
 1) Install VSCODE or intellij
 2) Install homebrew https://brew.sh
